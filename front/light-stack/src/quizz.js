@@ -22,23 +22,31 @@ export function initQuizz(questions) {
   
 async function showQuestion() {
   quizzData = await getQuestionsApi();
-    
-  for (let i = 0; i < quizzData.length; i++) {
-    let proposals = await getProposalApi(quizzData[i].id);
-    quizzData[i].proposals = proposals;
-  }
+
+  const proposalsPromises = quizzData.map(question =>
+    getProposalApi(question.id)
+  );
+
+  const allProposals = await Promise.all(proposalsPromises);
+
+  quizzData = quizzData.map((question, index) => ({
+    ...question,
+    proposals: allProposals[index]
+  }));
 
   const question = quizzData[currentQuestion];
-  questionElement.innerText = question.label
-  
+  questionElement.innerText = question.label;
+
   proposalsElement.innerHTML = "";
+
   question.proposals.forEach(proposal => {
     const button = document.createElement("button");
     button.innerText = proposal.label;
-    proposalsElement.appendChild(button);
     button.addEventListener("click", selectAnswer);
+    proposalsElement.appendChild(button);
   });
 }
+
   
 async function selectAnswer(e) {
   const selectedButton = e.target;

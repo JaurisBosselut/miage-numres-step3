@@ -63,18 +63,24 @@ Screen:
 
 # Q12:  Proposition 1
 Description:
+Faire attention aux assets, la mettre en svg plutôt qu'en gif
+
 Nb de requête total du parcours de l'utilisateur:
 Taille total des requêtes du parcours de l'utilisateur:
 Taille total des fichiers généré :
 
 # Q13:  Proposition 2
 Description:
+Uniformiser le css (je ne l'ai fait que pour les réseaux sociaux) et diminuer le nombre de réseaux sociaux.
+
 Nb de requête total du parcours de l'utilisateur:
 Taille total des requêtes du parcours de l'utilisateur:
 Taille total des fichiers généré :
 
 # Q14:  Proposition 3
-Description:
+Description: 
+L’application récupère les questions, puis charge en même temps les propositions de chaque question au lieu de les charger 1 par 1. Une fois tout reçu, elle associe les propositions aux questions et les affiche.
+
 Nb de requête total du parcours de l'utilisateur:
 Taille total des requêtes du parcours de l'utilisateur:
 Taille total des fichiers générés :

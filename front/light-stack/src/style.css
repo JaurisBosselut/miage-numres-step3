@@ -108,6 +108,7 @@ button:hover {
 }
 
 .fa {
+  color: purple;
   padding: 20px;
   font-size: 30px;
   width: 50px;
@@ -117,111 +118,31 @@ button:hover {
 }
 
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
-.fa-facebook {
-  background: #3B5998;
-  color: purple;
+/* backgrounds spécifiques */
+.fa-facebook { background: #3B5998; }
+.fa-twitter { background: #55ACEE; }
+.fa-google { background: #dd4b39; }
+.fa-linkedin { background: #007bb5; }
+.fa-youtube { background: #bb0000; }
+.fa-instagram { background: #125688; }
+.fa-pinterest { background: #cb2027; }
+.fa-snapchat-ghost { 
+  background: #fffc00; 
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; 
 }
-
-.fa-twitter {
-  background: #55ACEE;
-  color: purple;
-}
-
-.fa-google {
-  background: #dd4b39;
-  color: purple;
-}
-
-.fa-linkedin {
-  background: #007bb5;
-  color: purple;
-}
-
-.fa-youtube {
-  background: #bb0000;
-  color: purple;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: purple;
-}
-
-.fa-pinterest {
-  background: #cb2027;
-  color: purple;
-}
-
-.fa-snapchat-ghost {
-  background: #fffc00;
-  color: purple;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-.fa-skype {
-  background: #00aff0;
-  color: purple;
-}
-
-.fa-android {
-  background: #a4c639;
-  color: purple;
-}
-
-.fa-dribbble {
-  background: #ea4c89;
-  color: purple;
-}
-
-.fa-vimeo {
-  background: #45bbff;
-  color: purple;
-}
-
-.fa-tumblr {
-  background: #2c4762;
-  color: purple;
-}
-
-.fa-vine {
-  background: #00b489;
-  color: purple;
-}
-
-.fa-foursquare {
-  background: #45bbff;
-  color: purple;
-}
-
-.fa-stumbleupon {
-  background: #eb4924;
-  color: purple;
-}
-
-.fa-flickr {
-  background: #f40083;
-  color: purple;
-}
-
-.fa-yahoo {
-  background: #430297;
-  color: purple;
-}
-
-.fa-soundcloud {
-  background: #ff5500;
-  color: purple;
-}
-
-.fa-reddit {
-  background: #ff5700;
-  color: purple;
-}
-
-.fa-rss {
-  background: #ff6600;
-  color: purple;
-}
+.fa-skype { background: #00aff0; }
+.fa-android { background: #a4c639; }
+.fa-dribbble { background: #ea4c89; }
+.fa-vimeo { background: #45bbff; }
+.fa-tumblr { background: #2c4762; }
+.fa-vine { background: #00b489; }
+.fa-foursquare { background: #45bbff; }
+.fa-stumbleupon { background: #eb4924; }
+.fa-flickr { background: #f40083; }
+.fa-yahoo { background: #430297; }
+.fa-soundcloud { background: #ff5500; }
+.fa-reddit { background: #ff5700; }
+.fa-rss { background: #ff6600; }
