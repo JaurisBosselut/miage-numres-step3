@@ -79,7 +79,7 @@ Taille total des fichiers généré :
 
 # Q14:  Proposition 3
 Description: 
-L’application récupère les questions, puis charge en même temps les propositions de chaque question au lieu de les charger 1 par 1. Une fois tout reçu, elle associe les propositions aux questions et les affiche.
+L’application récupère les questions (pour la méthode showQuestion()), puis charge en même temps les propositions de chaque question au lieu de les charger 1 par 1. Une fois tout reçu, elle associe les propositions aux questions et les affiche.
 
 Nb de requête total du parcours de l'utilisateur:
 Taille total des requêtes du parcours de l'utilisateur:
