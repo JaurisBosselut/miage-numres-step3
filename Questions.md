@@ -40,21 +40,17 @@ dist/assets/main-QCVwn2m0.js
 
 # Q8 : Noter les nom des différents fichiers .js qui sont chargés au moment du chargement de la page.
 Réponse: 
-animated-winner-4j754vq76655hqpg5-4173.app.github.dev
 font-awesome.min.css
 main-QCVwn2m0.js
-fontawesome-webfont.woff2?v=4.7.0
 style-Dgd37vtf.js
 style-b4SyXn9O.css
-question.gif
-vite.svg
+
 
 # Q9 : Noter les nom des différents fichiers .js qui sont chargés au moment du changement de page.
 Réponse:
 about-D08RWGIN.js
 style-Dgd37vtf.js
 style-b4SyXn9O.css
-vite.svg
 
 # Q10: Quel est l'intérêt de lu Code Splitting d'un point de vue éco-responsable ?
 Réponse:
