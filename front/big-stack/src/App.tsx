@@ -1,4 +1,4 @@
-// import { Rating } from '@smastrom/react-rating';
+import { Rating } from '@smastrom/react-rating';
 import { useState } from 'react';
 import './App.css';
 import reactLogo from './assets/react.svg';
@@ -7,7 +7,7 @@ import viteLogo from '/vite.svg';
 
 function App() {
   const [count, setCount] = useState(0)
-  // const [rating, setRating] = useState(0) // Initial value
+  const [rating, setRating] = useState(0) // Initial value
 
   return (
     <>
@@ -31,7 +31,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-      {/* <Rating style={{ maxWidth: 250 }} value={rating} onChange={setRating} /> */}
+      { <Rating style={{ maxWidth: 250 }} value={rating} onChange={setRating} /> }
     </>
   )
 }

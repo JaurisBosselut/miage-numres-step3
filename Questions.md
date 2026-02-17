@@ -18,12 +18,16 @@ On ne minifie pas les fichiers en mode devs car on a besoin de maintenir l'appli
 
 # Q4 : Donner la taille des fichiers générer par la commande.
 Réponse:
+50 kb
 
 # Q5: Quel est l'intérêt du HMR ?
-Réponse:
+Réponse: 
+
+Le HMR permet de mettre à jour automatiquement le navigateur quand on modifie l'application sans recharger la page, ce qui permet de voir directement les modifications sur la page et de garder en mémoire tout ce qu'on a écrit cette page web, comme un nom d'utilisateur/mot de passe ou encore des filtres qu'on a choisit.
 
 # Q6: Donner la tailles des fichiers générer par la commande. Pourquoi il faut être vigilant sur les libraires et autre composant qu'on ajoute dans nos applications d'un point de vue éco-responsable ?
-Réponse:
+Réponse: 55.5 kb
+Les librairies et composants ajoutés augmentent la taille des fichiers de l’application, ce qui fait que l'application consomme plus de bande passante et d’énergie, même si elle est optimisée. Il faut donc prioriser les librairies légères et responsables pour rester éco-responsable.
 
 # Q7: Noter les nom des différents fichiers qui ont été générés par la commande.
 Réponse:
