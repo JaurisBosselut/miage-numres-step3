@@ -30,17 +30,35 @@ Réponse: 55.5 kb
 Les librairies et composants ajoutés augmentent la taille des fichiers de l’application, ce qui fait que l'application consomme plus de bande passante et d’énergie, même si elle est optimisée. Il faut donc prioriser les librairies légères et responsables pour rester éco-responsable.
 
 # Q7: Noter les nom des différents fichiers qui ont été générés par la commande.
-Réponse:
+Réponse: 
+dist/about/index.htm
+dist/index.html
+style-b4SyXn9O.css
+dist/assets/about-D08RWGIN.js
+dist/assets/style-Dgd37vtf.js
+dist/assets/main-QCVwn2m0.js
 
 # Q8 : Noter les nom des différents fichiers .js qui sont chargés au moment du chargement de la page.
-Réponse:
+Réponse: 
+animated-winner-4j754vq76655hqpg5-4173.app.github.dev
+font-awesome.min.css
+main-QCVwn2m0.js
+fontawesome-webfont.woff2?v=4.7.0
+style-Dgd37vtf.js
+style-b4SyXn9O.css
+question.gif
+vite.svg
 
 # Q9 : Noter les nom des différents fichiers .js qui sont chargés au moment du changement de page.
 Réponse:
-
+about-D08RWGIN.js
+style-Dgd37vtf.js
+style-b4SyXn9O.css
+vite.svg
 
 # Q10: Quel est l'intérêt de lu Code Splitting d'un point de vue éco-responsable ?
 Réponse:
+Le Code Splitting a pour but de charger seulement le code nécessaire pour la page affichée (par exemple Home). Le code de la page About n’est chargé que lorsqu’on clique sur le bouton pour naviguer vers cette page.
 
 
 # Q11: Ajouter le screen de votre score :
