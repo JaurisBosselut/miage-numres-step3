@@ -59,7 +59,7 @@ Le Code Splitting a pour but de charger seulement le code nécessaire pour la pa
 
 # Q11: Ajouter le screen de votre score :
 Screen:
-
+![alt text](image.png)
 
 # Q12:  Proposition 1
 Description:
